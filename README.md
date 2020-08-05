@@ -3,19 +3,6 @@
 This flutter project demonstrates the error in the data documentation for the flutter plugin for Google Maps.  
 Before running project add API key in AndroidManifest.xml and AppDelegate.swift  
 The error is in reference to the iOS documentation in Info.plist.  
-<boolean> YES </boolean> - causes error  
+boolean> YES </boolean - causes error  
 Instead:  
-$<true/>  
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+true/  
